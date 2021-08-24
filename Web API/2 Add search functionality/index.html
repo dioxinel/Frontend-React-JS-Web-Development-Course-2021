@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheMovieDB PoC</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <input class="searchInput" placeholder="Search"/>
+      <button class="searchButton" disabled>Search</button>
+    </header>
+    
+    <div id="app" class="mainContainer">
+      <div class="totalResults"></div>
+      <ul class="filmList"></ul>
+      <button class="loadMoreBtn">Load more</button>
+    </div>
+    <div id="loader" class="loaderContainer hidden">
+      <div class="loaderIcon"></div>
+      <div>Loading popular movies</div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
