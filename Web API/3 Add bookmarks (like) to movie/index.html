@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheMovieDB PoC</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+
+  <body>
+    <header>
+      TheMovieDB PoC
+      <button class="popularMovies"disabled>Popular Movies</button>
+      <button class="bookmarks">Bookmarks</button>
+    </header>
+    <div id="app" class="mainContainer">
+      <ul class="bookmarksList" hidden></ul>
+      <ul class="filmList"></ul>
+    </div>
+    
+      
+    <div id="loader" class="loaderContainer hidden">
+      <div class="loaderIcon"></div>
+      <div>Loading popular movies</div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>

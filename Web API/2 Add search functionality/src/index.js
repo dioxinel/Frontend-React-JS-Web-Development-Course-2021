@@ -6,7 +6,9 @@ const filmList = document.querySelector('.filmList');
 const input = document.querySelector('.searchInput');
 const searchButton = document.querySelector('.searchButton');
 
+
 function getFilms(input) {
+
   while (filmList.firstChild) {
     filmList.removeChild(filmList.firstChild);
   }
