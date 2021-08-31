@@ -1,0 +1,36 @@
+.AppWrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+ background-color: rgb(17, 255, 176);
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.img {
+ width: 300px;
+ height: 300px;
+ border-radius: 20px;
+ box-shadow: black 3px;
+}
+
+.AppItem {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 400px;
+ background-color: bisque;
+ border-radius: 50px;
+ margin: 20px;
+}
+
+.itemsList {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
