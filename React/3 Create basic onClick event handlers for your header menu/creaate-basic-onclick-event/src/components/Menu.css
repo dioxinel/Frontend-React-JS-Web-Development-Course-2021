@@ -1,0 +1,19 @@
+.Menu {
+ display: flex;
+ justify-content: space-around;
+}
+
+.MenuItem {
+ background-color: blueviolet;
+ color: #fff;
+ height: 20px;
+ border-radius: 10px;
+ line-height: 20px;
+ padding: 10px;
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+.MenuItem:hover {
+ opacity: 1;
+}
