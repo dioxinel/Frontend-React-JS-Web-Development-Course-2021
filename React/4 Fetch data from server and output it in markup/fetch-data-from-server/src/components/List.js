@@ -3,6 +3,7 @@ import Api from "../Api";
 import { ListItem } from "./MoviItem/ListItem";
 import '../index.css'
 import { Pagination } from "./Paination/Pagination";
+import { Header } from "./Header";
 
 
 export class List extends React.Component {
@@ -26,6 +27,7 @@ export class List extends React.Component {
   render() {
     return (
       <div className="List">
+        <Header />
         {this.state.movieList.map(item => {
           return <ListItem item={item} key={item.id}/>
         })}
