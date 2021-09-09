@@ -1,0 +1,38 @@
+.roleItem {
+ width: 362px;
+ padding: 20px;
+ margin-bottom: 10px;
+ border: 1px solid #757575;
+ background: #ffffff;
+ box-sizing: border-box;
+ border-radius: 4px;
+ display: flex;
+ cursor: pointer;
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.roleItem h4 {
+ margin: 0;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 28px;
+}
+
+.roleItem p {
+ margin: 0;
+}
+
+.roleItem svg {
+ margin-right: 15px;
+}
+
+.roleItem.active {
+ background-color: #ebf1fb;
+ border: 1px solid #376fdb;
+}
+
+.roleInputContainer {
+ display: flex;
+ flex-direction: column;
+}
