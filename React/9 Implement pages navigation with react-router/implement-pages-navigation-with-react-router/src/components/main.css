@@ -1,0 +1,14 @@
+.NavBar {
+ display: flex;
+ justify-content: space-around;
+ height: 50px;
+}
+
+.NavBarItem {
+ width: 200px;
+ background-color: rgb(248, 4, 4);
+ border-radius: 10px;
+ color: azure;
+ text-align: center;
+ line-height: 50px;
+}
