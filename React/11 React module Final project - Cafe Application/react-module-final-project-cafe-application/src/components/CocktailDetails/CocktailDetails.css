@@ -1,0 +1,37 @@
+.cocktailDetailImg {
+ width: 400px;
+ height: 400px;
+}
+
+.cocktailsDetails {
+ padding: 20px 0;
+ display: flex;
+ justify-content: space-around;
+ min-height: 100vh;
+}
+
+.textDetails {
+ width: 40%;
+ min-width: 300px;
+}
+
+.textDetails p {
+ text-align: justify;
+}
+
+.ingredientsList {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.ingredientsList h4 {
+ width: 100%;
+}
+
+.AddToBasketBtn {
+ margin: 20px;
+ width: 200px;
+ height: 50px;
+ font-size: 20px;
+}

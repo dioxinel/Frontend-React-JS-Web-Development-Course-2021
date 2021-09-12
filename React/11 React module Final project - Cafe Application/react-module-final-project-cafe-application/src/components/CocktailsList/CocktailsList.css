@@ -1,0 +1,16 @@
+.personalSuggestImg {
+ width: 300px;
+ height: 300px;
+}
+
+.cocktailsList {
+ display: flex;
+ flex-wrap: wrap;
+ width: 850px;
+}
+
+.cocktailItemImg {
+ width: 200px;
+ height: 200px;
+ margin: 5px;
+}
